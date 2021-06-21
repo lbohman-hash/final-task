@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Please enter your first number: ");
         int num2 = scanner.nextInt();
 
+        System.out.println(subMethod(num1, num2));
         subMethod(num1, num2);
 
         int addResult = addMethod(num1, num2);
@@ -34,8 +35,6 @@ public class Main {
     static int addMethod(int num1, int num2) {
         int result = num1 + num2;
         return result;
-
-
     }
 
     static int divMethod(int num1, int num2) {
