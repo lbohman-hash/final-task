@@ -12,10 +12,17 @@ public class Main {
         int num2 = scanner.nextInt();
 
         subMethod(num1, num2);
+        int addResult = addMethod(num1, num2);
+
+        System.out.println(addResult);
     }
 
      static int subMethod(int num1, int num2) {
          int differens = num1 - num2;
          return differens;
+    }
+    static int addMethod(int num1, int num2) {
+        int result = num1 + num2;
+        return result;
     }
 }
