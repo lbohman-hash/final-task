@@ -10,5 +10,12 @@ public class Main {
 
         System.out.println("Please enter your first number: ");
         int num2 = scanner.nextInt();
+
+        subMethod(num1, num2);
+    }
+
+     static int subMethod(int num1, int num2) {
+         int differens = num1 - num2;
+         return differens;
     }
 }
